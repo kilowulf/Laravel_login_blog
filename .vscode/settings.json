@@ -1,0 +1,7 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    //add git bash terminal to vsc terminal options
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.fontsize": 18,
+    "files.autoSave": "on",
+}
