@@ -52,6 +52,19 @@ return [
             'prefix' => '',
             'strict' => true,
             'engine' => null,
+
+            'driver' => 'mysql',
+            'host' => env('DB2_HOST', 'us-cdbr-iron-east-05.cleardb.net'),
+            'port' => env('DB2_PORT', '3306'),
+            'database' => env('DB2_DATABASE', 'heroku_63276eb98e2e373'),
+            'username' => env('DB2_USERNAME', 'b56906daf0474d'),
+            'password' => env('DB2_PASSWORD', 'f4db3822'),
+            'unix_socket' => env('DB_SOCKET', ''),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix' => '',
+            'strict' => true,
+            'engine' => null,
         ],
 
         'pgsql' => [
