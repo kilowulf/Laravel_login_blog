@@ -20,6 +20,8 @@
         "vue": "^2.1.10"
     },
     "dependencies": {
-        "express": "^4.15.3"
+        "express": "^4.15.3",
+        "mysql": "github:mysqljs/mysql",
+        "node-mysql": "^0.4.2"
     }
 }
